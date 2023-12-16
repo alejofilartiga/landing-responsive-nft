@@ -1,0 +1,202 @@
+@media (max-width: 992px) {
+    
+    header{
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+        align-items: center;
+        height: 10%;
+    }
+
+    .logo-nucba{
+        width: 140px;
+    }
+
+    .cart-icon{
+        width: 25px;
+    }
+
+    .cart{
+        position: absolute;
+        width: 100%;
+    }
+
+    .navbar{
+        max-width: 992px;
+        margin: 0 20px;
+        gap: 10px;
+    }
+
+    .navbar-list {
+        font-size: 20px;
+        gap: 15px;
+        position: absolute;
+        top: 65px;
+        width: 90%;
+        flex-direction: column;
+        right: 5%;
+        left: 5%;
+        background-color: var(--nav-bg);
+        padding: 40px;
+        border: 2px solid var(--electric);
+        border-top: none;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        justify-content: flex-start;
+        align-items: start;
+        z-index: 2;
+        display: none;
+    }
+
+    .home-btn{
+        color: white;
+    }
+
+    .menu-label{
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img{
+        height: 20px;
+    }
+    
+    #menu-toggle:checked +.navbar-list{
+        display: flex;
+    }
+
+
+    /* Hero - Section */
+    #hero{
+        width: 80%;
+    }
+
+    .hero-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        width: 100%
+
+    }
+
+    .hero-info h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+
+    .hero-info p{
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+    }
+
+
+    .hero-info a{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .hero-card{
+        display: none;
+    }
+
+    /* Info - Section */
+
+    #info{
+        max-width: 992px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+
+    /* Discover - Section */
+
+    #discover{
+        width: 90%;
+    }
+
+    .discover-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .discover-info h2{
+        width: 100%;
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .discover-text{
+        width: 100%;
+        text-align: center;
+    }
+
+    .discover-cards{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover-cards img{
+        width: 400px;
+    }
+    
+    /* Products Section */
+
+    #products{
+        width: 90%;
+    }
+
+    .categories{
+        flex-wrap: wrap;
+    }
+
+    .categories button{
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px){
+
+    /* Hero - Section */
+
+    #hero{
+        width: 100%;
+    }
+
+    .hero-info h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero-info p{
+        font-size: 15px;
+    }
+
+    .hero-info a{
+        font-size: 18px;
+    }
+
+
+    /* Discover - Section */
+
+    .discover-cards{
+        width: 100%;
+    }
+
+    .discover-cards img{
+        width: 300px;
+    }
+}
