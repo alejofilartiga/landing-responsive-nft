@@ -142,10 +142,6 @@
 
     .discover-cards{
         width: 90%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
 
     .discover-cards img{
@@ -159,7 +155,9 @@
     }
 
     .categories{
+        justify-content: center;
         flex-wrap: wrap;
+        align-items: center;
     }
 
     .categories button{
@@ -190,13 +188,31 @@
     }
 
 
+
     /* Discover - Section */
 
     .discover-cards{
+        display: flex;
         width: 100%;
     }
 
     .discover-cards img{
-        width: 300px;
+        width: 250px;
     }
+
+    /* Products - Section */
+
+    .categories{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        flex-wrap: wrap;
+    }   
+
+    .category{
+        align-items: center;
+        justify-content: center;
+    }
+   
 }
